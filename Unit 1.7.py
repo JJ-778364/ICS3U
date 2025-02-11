@@ -10,11 +10,11 @@ else:
    print(y, "is greater than 50 :( TRY AGAIN!!!")
   else:
     print("Now deciding if", y, "is a factor of", x, "...")
-  if y == 0:
-    print("Division by 0 is not allowed! Try again </3")
-  else: 
-   rem = x % y
-  if rem == 0:
-    print("Yes!", y, "is a factor of", x)
-  if rem != 0:
-    print("NOOOO!", y, "is NOT a factor of", x)
+    if y == 0:
+      print("Division by 0 is not allowed! Try again </3")
+    else: 
+      rem = x % y
+      if rem == 0:
+        print("Yes!", y, "is a factor of", x)
+      if rem != 0:
+        print("NOOOO!", y, "is NOT a factor of", x)
