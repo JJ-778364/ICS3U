@@ -1,3 +1,10 @@
-print("Determining the length of the body diagnal in a cube")
-x = input("Please insert the edge length of the cube: ")
-x = 
+import math
+print("Welcome to the cube diagonal calculator!")
+s = input("Please input the side length of your cube: ")
+s = int(s)
+if 0>s:
+  print("Please input a postive length!")
+else:
+  d = s*math.sqrt(3)
+  d = round(d, 2)
+  print("The length of the inner diagonal of a cube with a side length of", s, "is", d, "!")
