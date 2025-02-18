@@ -13,4 +13,5 @@ n5 = rest2/5
 n5 = int(n5)
 rest3 = rest2 % 5
 n1 = rest3/1
-print("Your change is", 5, "quarters")
+n1 = int(n1)
+print("Your change is", n25, "quarters,", n10, "dimes,", n5, "nickels, and", n1, "pennies")
