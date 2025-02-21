@@ -1,10 +1,14 @@
 # Part 1
 import math
+# we need to use "import math" to use the math library
 print("Welcome to the product even/odd detector!!")
+# intro to the code, explaining what it is
 n1 = input("Please input your first number: ")
-n1 = float(n1)
+# the user inputs their first number
+n1 = int(n1)
+# we want this t
 n2 = input("Please input your second number: ")
-n2 = float(n2)
+n2 = int(n2)
 if (n1 % 2 == 0) and (n2 % 2 == 0):
   print("Your number is EVEN!")
 elif (n1 % 2 > 0) and (n2 % 2 == 0):
