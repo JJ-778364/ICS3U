@@ -1,7 +1,7 @@
 # Part 1
-import math # "This is needed to use the math library.
+import math # This is needed to use the math library.
 print("Welcome to the product even/odd detector!!") # An introduction to the code, explaining what its purpose is using "print".
-n1 = input("Please input your first number: ") # The user inputs their first number with "n1" being the variable which is "input".
+n1 = input("Please input your first number: ") # The user inputs their first number with "n1" being the variable which is the "input".
 n1 = int(n1) # The number needs to be an integer which is done using "int".
 n2 = input("Please input your second number: ") # The user inputs their second number with "n2" being the variable this time.
 n2 = int(n2) # This number also needs to be an integer.
