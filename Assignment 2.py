@@ -9,6 +9,7 @@ Variable Dictionary:
 """
 
 import random
+# Imports the random library which is used in the code
 
 print("Hello! Welcome to the number guessing game!")
   # A print statement to introduce the game
