@@ -41,7 +41,7 @@ while attempts < 6:
   else:
   # If none of the previous conditions apply...
     guesscorrect = True
-    # The users guess is correct, setting the "guesscorrect" vairable to True
+    # The users guess is correct, setting the "guesscorrect" variable to True
     attempts += 6
     # The number of attempts is increased by 6 to immediately exit the loop
 if guesscorrect:
@@ -49,6 +49,6 @@ if guesscorrect:
   print("You Guessed right!")
   # The code prints this out letting them know they were correct
 else:
-# If the loop ends without "guesscorrect" being set to True, meaning they got the number right...
+# If the loop ends without "guesscorrect" being set to True, this means they did not get it right...
   print("Sorry, you are out of guesses! The answer was", number)
   # The code will inform the user that they are out of guesses, and what the number was
