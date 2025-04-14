@@ -1,10 +1,10 @@
 print("Palindrome program!")
 words = ["racecar", "noon", "desk", "civic", "store", "rotor", "madam", "kayak", "school", "refer"]
-for i in range(len(words)):
-    word = words[i]
+for pali in range(len(words)):
+    word = words[pali]
     palindrome = True
-    for j in range(len(word) // 2):
-        if word[j] != word[len(word) - 1 - j]:
+    for x in range(len(word) // 2):
+        if word[x] != word[len(word) - 1 - x]:
             palindrome = False
     if palindrome:
         print(word, "is a palindrome")
