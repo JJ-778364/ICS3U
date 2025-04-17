@@ -1,3 +1,12 @@
+"""
+Jenna Jawarneh
+778364
+ICS3U
+
+Variable Dictionairy:
+
+"""
+
 print("Palindrome program!")
 words = ["racecar", "noon", "desk", "civic", "store", "rotor", "madam", "kayak", "school", "refer"]
 for pali in range(len(words)):
@@ -10,3 +19,6 @@ for pali in range(len(words)):
         print(word, "is a palindrome")
     else:
         print(word, "is not a palindrome")
+        
+        
+        
