@@ -10,7 +10,7 @@ words = The list of words we want to check for palindromes
 print("Welcome to the Palindrome Program! This program will determine if a word is a palindrome.")
 
 # The list of words that we want to check for palindromes in an array, set to the variable "words".
-words = ["racecar", "noon", "park", "civic", "store", "rotor", "play", "kayak", "class", "refer"]
+words = ["racecar", "noon", "market", "park", "civic", "rotor", "refer", "play", "kayak", "class"]
 
 # A loop that checks every index of the list, which is every word i
 for i in range(len(words)):
