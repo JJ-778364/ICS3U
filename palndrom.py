@@ -12,12 +12,22 @@ print("Welcome to the Palindrome Program! This program will determine if a word 
 # The list of words that we want to check for palindromes in an array, set to the variable "words".
 words = ["racecar", "noon", "market", "park", "civic", "rotor", "refer", "play", "kayak", "class"]
 
-# A loop that checks every index of the list, which is every word i
+# A loop that checks every index of the list, which is every word in the array.
 for i in range(len(words)):
     
+    # Every word is an index in the array, starting at 0 with "racecar"
+    # and ending at 9 with "class"
     word = words[i]
+    
+    # The code assumes the words are not palindromes, until proven true.
     palindrome = False
+    
+    # This loop turns every word into an array, dividing the number of characters by 2 and rounding down
     for x in range(len(word) // 2):
+        
+        # This if statement checks if every letter is the same as its corresponding 
+        # letter in the second half of the word.
+        # Using the length of the word, then subtracting 1, as loops start at 0, 
         if word[x] == word[len(word) - 1 - x]:
             palindrome = True
     if palindrome:
