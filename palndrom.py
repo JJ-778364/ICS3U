@@ -14,11 +14,12 @@ words = ["racecar", "noon", "park", "civic", "store", "rotor", "play", "kayak", 
 
 # A loop that checks every index of the list, which is every word i
 for i in range(len(words)):
+    
     word = words[i]
-    palindrome = True
+    palindrome = False
     for x in range(len(word) // 2):
-        if word[x] != word[len(word) - 1 - x]:
-            palindrome = False
+        if word[x] == word[len(word) - 1 - x]:
+            palindrome = True
     if palindrome:
         print(word, "is a palindrome")
     else:
