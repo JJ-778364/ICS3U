@@ -4,7 +4,7 @@ Jenna Jawarneh
 ICS3U
 
 Variable Dictionairy:
-words = The list of words beig checked for palindromes
+words = The list of words being checked for palindromes
 word = Every word in the list
 Palindrome = set to either True or False to determine if the word is a palindrome or not
 i = counting index
