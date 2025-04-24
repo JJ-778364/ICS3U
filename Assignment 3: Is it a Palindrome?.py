@@ -14,8 +14,11 @@ Variable Dictionairy:
     i = counting index
     x = coutning index
 """
-# Title to describe what the program does.
-print("Welcome to the Palindrome Program! This program will determine if a word is a palindrome.")
+# Introduction to the code.
+print("Welcome to the Palindrome Program!")
+
+# The purpose of the code.
+print("This program will determine whether a word is a palindrome or not.")
 
 # The list of words that we want to check for palindromes in an array, set to the variable "words".
 words = ["racecar", "noon", "market", "park", "civic", "rotor", "refer", "play", "kayak", "class"]
