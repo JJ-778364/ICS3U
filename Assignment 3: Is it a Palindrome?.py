@@ -1,15 +1,18 @@
 """
 Jenna Jawarneh
+April 25, 2025
+Is it a Palindrome?
 778364
 ICS3U
 
-Variable Dictionairy:
-words = The list of words being checked for palindromes
-word = Every word in the list
-Palindrome = set to either True or False to determine if the word is a palindrome or not
-i = counting index
-x = coutning index
+This code determines whether words are palindromes or not, using arrays and loops.
 
+Variable Dictionairy:
+    words = The list of words being checked for palindromes
+    word = Every word in the list
+    Palindrome = set to either True or False to determine if the word is a palindrome or not
+    i = counting index
+    x = coutning index
 """
 # Title to describe what the program does.
 print("Welcome to the Palindrome Program! This program will determine if a word is a palindrome.")
