@@ -20,8 +20,7 @@ words = ["racecar", "noon", "market", "park", "civic", "rotor", "refer", "play",
 # A loop that checks every index of the list, which is every word in the array.
 for i in range(len(words)):
     
-    # Every word is an index in the array, starting at 0 with "racecar"
-    # and ending at 9 with "class"
+    # Every word is an index in the array, starting at 0 with "racecar", and ending at 9 with "class"
     word = words[i]
     
     # The code assumes the words are not palindromes, until proven true.
@@ -30,12 +29,12 @@ for i in range(len(words)):
     # This loop turns every word into an array, dividing the number of characters by 2 and rounding down.
     for x in range(len(word) // 2):
         
-        # This if statement checks if every letter in the first half of the word is the same as its  
-        # corresponding letter in the second half of the word.
-        # It checks by using the length of the word, then subtracting 1 to account for the loop starting
-        # at 0, then subtracting the index. For example with the word "racecar", it calculates first if
-        # r = the letter at 7 - 1 - 0, which is the r again.
-        # a = the letter at 7 - 1 - 1 which is a, and so on.
+        """ This if statement checks if every letter in the first half of the word is the same as its  
+        corresponding letter in the second half of the word.
+        It checks by using the length of the word, then subtracting 1 to account for the loop starting
+        at 0, then subtracting the index. For example with the word "racecar", it calculates first if
+        r = the letter at 7 - 1 - 0, which is the r again.
+        a = the letter at 7 - 1 - 1 which is a, and so on. """
         if word[x] == word[len(word) - 1 - x]:
             
             # If the previous condition applies, it sets the palindrome as true.
