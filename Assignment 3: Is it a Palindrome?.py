@@ -53,6 +53,3 @@ for i in range(len(words)):
     # In any other scenario, it will be false, meaning the word is not a palindrome.
     else:
         print(word, "is not a palindrome")
-        
-        
-        
