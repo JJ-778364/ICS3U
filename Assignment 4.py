@@ -12,5 +12,7 @@ for i in range(months):
   numMonth = month[i] + 1
 
 def date(month: str, day: str, year: str) -> int:
-  
-def search(word: str)
+  finaldate = (year, month, day)
+  return finaldate
+def search(word: str):
+  word = word
