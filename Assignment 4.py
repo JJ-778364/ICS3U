@@ -134,7 +134,7 @@ for i in range(len(sarr)):
     lastLetter = w[len(w)-1]
 
     # Checks if the last character is a capital letter from A-Z
-    if lastLetter >= "A" and lastLetter <= "Z":
+    if lastLetter in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
         # If it is, then the final version of the word is set to this variable as is
         newWord = w
     # Otherwise, the last character is not a letter and needs to be removed
