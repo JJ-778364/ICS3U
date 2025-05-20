@@ -213,7 +213,7 @@ elif choice == "D":
                 print("On", q, "the word was", words[i])
                 # Found is set to true
                 found = True
-        # If the word was not found...
+        # If the date was not found...
         if not found:
             # then a print statement to inform the user there was no word on that day
             print("No entry for", q)
