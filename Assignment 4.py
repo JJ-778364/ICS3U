@@ -57,8 +57,6 @@ def inDate(mon, day, year):
         if months[i] == mon:
             # then its index gets 1 added to it, because the index starts at 0
             monthNum = i + 1
-            # Stops the loop if the month was found
-            break
 
     # If the length of the date number is only 1...
     if len(day) == 1:
