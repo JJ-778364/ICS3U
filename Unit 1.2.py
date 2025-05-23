@@ -1,5 +1,3 @@
-c = 18
-c-= 2
-print("The value is now: ", c)
-c /=2
-print("The value is now: ", c)
+amount = 8
+amount *= 2
+print(amount)
