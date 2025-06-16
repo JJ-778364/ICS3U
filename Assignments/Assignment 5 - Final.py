@@ -9,14 +9,6 @@ ICS3U
     Please ensure the "pastwordles.txt" and "valid_wordle_words.txt" files are in the 
     same location, available to be opened.
 
-Variable Dictionary for binarySearch function:
-
-    wordList: List of valid words to search through
-    target: The word the user guessed, being searched for in wordList
-    low: Lower boundary for the binary search
-    high: Upper boundary for the binary search
-    mid: Middle index used to compare with the target word
-
 ANSI Colour Dictionary:
 
     GREEN: ANSI code to colour correct letters green
@@ -55,6 +47,18 @@ Game Dictionary:
 import time
 
 # Binary Search function
+
+    """
+    Variable Dictionary for binarySearch function:
+
+    wordList: List of valid words to search through
+    target: The word the user guessed, being searched for in wordList
+    low: Lower boundary for the binary search
+    high: Upper boundary for the binary search
+    mid: Middle index used to compare with the target word
+    
+    """
+
 def binarySearch(wordList, target):
     
     # Sets the lower end to 0
